@@ -7,12 +7,12 @@
 	position: fixed; /* align-items: flex-end; */
  }
  
-.logo {margin-top: 50%;}
+.logo {margin-top: 200px;}
  
 .btn {background: none;}
  
 .buton {
-	margin-top: 20%;
+	margin-top: 70px;
 	font-size: 3em;
 	color: white;
  }
