@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <title>Verify</title>
+</head>
+
+<body>
+    <!-- AQUI SE ENCUENTRA LA OPCION QUE REGRESA A LA PAGINA ANTERIOR -->
+    <header>
+        <a href="inicio.html" class="btn btn-default" aria-label="Left Align">
+            <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+        </a>
+    </header>
+    <!-- AQUI ESTA EL TITULO Y CONTENIDO (SOLO TEXTO) -->
+    <section class="text-center">
+        <h1>Sing up</h1>
+        <h3>Join now free ride credit</h3>
+
+    </section>
+    <!-- EN ESTA SECCION SE ENCUENTRA EL FORMULARIO, FUE EDITADO (SE USO COMO BASE BOOTSTRAP) -->
+    <section>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <div class="input-group widthInput pull-left">
+                    <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span> <!--en esta linea insertamos iconos para unirlos con los input -->
+                    <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group widthInput">
+                    <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group inputUnic">
+                    <span class="input-group-addon glyphicon glyphicon-envelope" id="basic-addon1"></span>
+                    <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> I gree to Lyft´ss
+                            <a href="#">Terms of service</a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </section>
+    <!-- BOTON QUE VALIDA LA INFORMACION -->
+    <footer>
+        <button class="butoon">NEXT</button>
+    </footer>
+
+    <!-- Enlazando script  -->
+    <script src="../vendors/js/jquery.min.js"></script>
+    <script src="../vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../js/formulario.js"></script>
+</body>
+
+</html>

@@ -4,7 +4,7 @@
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	height: 100vh;
-	position: fixed; /* align-items: flex-end; */
+	position: fixed;
  }
  
 .logo {margin-top: 200px;}
