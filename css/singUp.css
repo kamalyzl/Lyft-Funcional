@@ -1,0 +1,9 @@
+
+/* AQUI SE GRADUCA EL COLOR DE FONDO DE LA PAGINA */
+.grad1 {
+	height: 100vh; 
+	background: #d90089;
+    background: linear-gradient(to top, #d90089, #B91AC4);
+    padding: 0;
+    
+ }

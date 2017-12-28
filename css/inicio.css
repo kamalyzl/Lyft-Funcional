@@ -12,9 +12,9 @@
 .btn {background: none;}
  
 .buton {
-	margin-top: 70px;
+	margin-top: 60px;
 	font-size: 3em;
 	color: white;
  }
  
-	.buton button {border: 1px solid white;}    
+	.buton a {border: 1px solid white;}    

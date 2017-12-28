@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/singUp.css">
+    <link rel="stylesheet" href="../vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <title>Incio</title>
+</head>
+
+<body class="grad1">
+    <!-- ICONO QUE REGRESA A LA PAGINA ANTERIOR -->
+    <nav>
+        <a href="inicio.html" class="btn btn-default" aria-label="Left Align">
+            <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+        </a>
+    </nav>
+    <!-- FORMULARIO DONDE SE ELIGE EL PAIS -->
+    <section>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">País
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Perú</a>
+                            </li>
+                            <li>
+                                <a href="#">Colombia</a>
+                            </li>
+                            <li>
+                                <a href="#">España</a>
+                            </li>
+                            <li>
+                                <a href="#">México</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /btn-group -->
+                    <input type="number" class="form-control"> <!--INPUT DONDE SE INGRESA EL NUMERO CELULAR-->
+                </div>
+                <!-- /input-group -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div>
+        <!-- BOTON QUE VALIDA LA INFORMACION -->
+        <div class="rwo">
+            <button class="btn btn-default" type="submit" disabled>NEXT</button>
+        </div>
+    </section>
+    <!-- Enlazando script  -->
+    <script src="../vendors/js/jquery.min.js"></script>
+    <script src="../vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../js/singUp.js"></script>
+</body>
+
+</html>
