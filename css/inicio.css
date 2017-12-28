@@ -1,0 +1,20 @@
+.image {
+	background-image: url(../assets/images/baner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 100vh;
+	position: fixed; /* align-items: flex-end; */
+ }
+ 
+.logo {margin-top: 50%;}
+ 
+.btn {background: none;}
+ 
+.buton {
+	margin-top: 20%;
+	font-size: 3em;
+	color: white;
+ }
+ 
+	.buton button {border: 1px solid white;}    

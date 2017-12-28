@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#grad1 {
+	height: 100vh;
+	width: 100%;
+	background: #d90089;
+	background: linear-gradient(to top, #d90089, #B91AC4);
+ }
+ 
+	#grad1 img {
+		height: auto;
+		width: 80%;
+		margin: 50% 10%;
+	 }
