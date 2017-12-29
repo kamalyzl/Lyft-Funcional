@@ -1,8 +1,11 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
+ 
+ 
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+ }
+ 
 #grad1 {
 	height: 100vh;
 	width: 100%;
@@ -15,9 +18,8 @@
 		width: 80%;
 		margin: 50% 10%;
 	 }
-
+ 
 /* ESTILO DE LA PAGINA FINAL (SOLO LA IMAGEN GIF) */
-
 .final {
 	background-image: url(../assets/images/fin.gif);
 	background-size: cover;
@@ -26,4 +28,5 @@
 	height: 100vh;
 	position: fixed;
 	width: 100%;
-}
+ }
+ 

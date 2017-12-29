@@ -17,35 +17,60 @@
             <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
         </a>
     </nav>
+    <!-- AQUI INICIA EL CONTENIDO -->
     <section class="container-fluid">
         <main class="text-center">
             <h1>Sing Up</h1>
             <p>Join now for free ride credit</p>
         </main>
-        <!-- FORMULARIO DONDE SE ELIGE EL PAIS -->
-        <div>
-            <div class="row styleRow">
-                <form action="" class="col-xs-5 style-from">
-                    <select name="cars" class="form-control">
-                        <option value="">País</option>
-                        <option value="volvo">Perú</option>
-                        <option value="saab">Colombia</option>
-                        <option value="mercedes">Argentina</option>
-                        <option value="audi">Ecuador</option>
-                    </select>
-                </form>
-                <form class="col-xs-7 style-from">
-                    <!--INPUT DONDE SE INGRESA EL NUMERO CELULAR-->
-                    <input type="number" class="form-control">
-                </form>
-            </div>
-            <p class="text-center">We´ll send a text to verify your phone</p>
-            <!-- BOTON QUE VALIDA LA INFORMACION -->
-            <div class="rwo styleRow butoon">
-                <button class="btn btn-danger" type="submit" disabled>NEXT</button>
+        <!-- OPCIONES PARA ELEGIR EL PAIS-->
+        <div class="row styleRow">
+            <form action="" class="col-xs-6 style-from">
+                <select name="Paises" class="form-control">
+                    <option value="">País</option>
+                    <option value="51">Perú</option>
+                    <option value="52">Colombia</option>
+                    <option value="54">Argentina</option>
+                    <option value="70">Ecuador</option>
+                </select>
+            </form>
+            <form class="col-xs-6 style-from">
+                <!--INPUT DONDE SE INGRESA EL NUMERO CELULAR-->
+                <input type="number" class="form-control">
+            </form>
+        </div>
+        <p class="text-center">We´ll send a text to verify your phone</p>
+        <!-- BOTON QUE VALIDA LA INFORMACION -->
+        <div class="rwo styleRow">
+            <button type="button" id="btnNextPrincipal" class="btn btn-danger btn-lg col-xs-offset-3" data-toggle="modal" data-target="#myModal" disabled>
+                NEXT
+            </button>
+
+            <!-- Modal VERIFY-->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="title text-center">
+                                <h1>Verify phone number</h1>
+                                <h2>Join now for free ride credit</h2>
+                                <form>
+                                    <label>LAB -</label>
+                                    <input type="number" id="key" class="inputstyle"> <!-- INPUT PARA EL INGRESO DEL CODIGO -->
+                                </form>
+                                <p>Enter the code sent to
+                                    <a id="codigo"></a> <!-- SE MUESTRA EL CODIGO ELEGIDO SEGUN PAIS -->
+                                </p>
+                                <button class="btn" id="btn-resend">Resend code</button>  <!--BOTON QUE TE REENVIA UN NUEVO CODIGO-->
+                            </div>
+                        </div>                      
+                            <button type="button" class="btn btn-danger butoon" data-dismiss="modal" disabled id="btn-next-verify">NEXT</button>                        
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
     <!-- Enlazando script  -->
     <script src="../vendors/js/jquery.min.js"></script>
     <script src="../vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>

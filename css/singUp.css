@@ -10,9 +10,23 @@
 	margin: 20px;
 	padding: 70px;
  }
-
-	.style-from.style-from {
-		 padding: 0;
- 	}
+ 
+.style-from.style-from {padding: 0;}
  
 .butoon {margin-left: 80px;}
+ 
+/* ESTILOS DEL MODAL */
+.inputstyle {
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+ }
+ 
+.title {padding: 5%;}
+ 
+.butoon {
+	margin-left: 0;
+	width: 100%;
+	height: 50px;
+ }
+ 

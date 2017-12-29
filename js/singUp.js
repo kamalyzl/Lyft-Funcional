@@ -1,32 +1,50 @@
 $(document).ready(begin);
 
 function begin() {
-    // Llamando elementos del html 
+    $select = $("select[name|= 'Paises']");
     $inputNumber = $("input[type|= 'number']");
-    $buton = $("button[type|= 'submit']");
-    // Botones de la pagina Verify  
-    $butonReset = $("button[class|= 'btn']");
-    $butonVerify = $("button[class|= 'btn']");
+    $btnNextPrincipal = $("#btnNextPrincipal");
+    //Variable del modal verify
+    $inputNumberVerify = $("#key");
+    $butonResetVerify = $("#btn-resend");
+    $codPaisVerify = $("#codigo");
+    $butonNextVerify = $("#btn-next-verify");
 
-
-    function random() {
-        var x = Math.floor((Math.random() * 999) + 1);
-        alert('Tú codigo : LAB-' + x);
-    }
-    //Agregamos nuestros eventos
-    $inputNumber.on('keyup focus', function () {
+    $inputNumber.on('keyup focus', function() {
         if ($inputNumber.val().length >= 10) {
-            $buton.removeAttr('disabled');
+            $btnNextPrincipal.removeAttr('disabled');
         }
     });
-    $buton.on('click', function () {
+    $btnNextPrincipal.on('click', function() {
         random();
-        window.location.href = "verify.html";
+    });
+    $select.on('change', function() {
+        var value = $(this).val();
+        $codPaisVerify.text("+" + value);
+        console.log("+" + value);
     });
 
-    //eventos de la pagina verify
-    $butonReset.on('click', function () {
+    //Eventos del modal verify
+    $inputNumberVerify.on('keyup focus', function() {
+        if ($(this).val().length == 3) {
+            $butonNextVerify.removeAttr('disabled');
+
+        } else {
+            $butonNextVerify.prop('disabled', true);
+        }
+
+    });
+    $butonResetVerify.on('click', function() {
         random();
     });
+    $butonNextVerify.on('click', function() {
+        window.location.href = "formulario.html";
+    });
+
+    function random() {
+        var x = Math.floor(Math.random() * (1000 - 100)) + 100;
+        alert('Tú codigo : LAB-' + x);
+    };
+
 
 }
