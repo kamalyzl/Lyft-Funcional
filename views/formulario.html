@@ -28,17 +28,18 @@
         <form class="form-horizontal">
             <div class="form-group">
                 <div class="input-group widthInput pull-left">
-                    <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span> <!--en esta linea insertamos iconos para unirlos con los input -->
-                    <input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+                    <span class="input-group-addon glyphicon glyphicon-user" id="basic-addon1"></span>
+                    <!--en esta linea insertamos iconos para unirlos con los input -->
+                    <input type="text" class="form-control" id="inputName" placeholder="First Name" aria-describedby="basic-addon1">
                 </div>
                 <div class="input-group widthInput">
-                    <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" id="inputLast" placeholder="Last Name" aria-describedby="basic-addon1">
                 </div>
             </div>
             <div class="form-group">
                 <div class="input-group inputUnic">
                     <span class="input-group-addon glyphicon glyphicon-envelope" id="basic-addon1"></span>
-                    <input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email" aria-describedby="basic-addon1">
                 </div>
             </div>
             <div class="form-group">
@@ -56,7 +57,7 @@
     </section>
     <!-- BOTON QUE VALIDA LA INFORMACION -->
     <footer>
-        <button class="butoon">NEXT</button>
+        <button id="buton" class="no-butoon" disabled >NEXT</button>
     </footer>
 
     <!-- Enlazando script  -->
