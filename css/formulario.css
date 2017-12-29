@@ -7,16 +7,6 @@
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 50px;
-	background: #d90089;
-	background: linear-gradient(to top, #d90089, #B91AC4);
+	height: 50px;	
  }
 
- .no-butoon {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 50px;
-	background: #333;
-	color: white;
- }
