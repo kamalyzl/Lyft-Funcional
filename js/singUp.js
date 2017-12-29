@@ -28,9 +28,5 @@ function begin() {
     $butonReset.on('click', function () {
         random();
     });
-    $$butonReset.on('click', function () {
-        var x = Math.floor((Math.random() * 999) + 1);
-        alert('Tú codigo : LAB-' + x);
-        window.location.href = "verify.html";
-    });
+
 }
