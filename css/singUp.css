@@ -10,5 +10,9 @@
 	margin: 20px;
 	padding: 70px;
  }
+
+	.style-from.style-from {
+		 padding: 0;
+ 	}
  
 .butoon {margin-left: 80px;}

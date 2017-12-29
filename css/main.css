@@ -15,3 +15,15 @@
 		width: 80%;
 		margin: 50% 10%;
 	 }
+
+/* ESTILO DE LA PAGINA FINAL (SOLO LA IMAGEN GIF) */
+
+.final {
+	background-image: url(../assets/images/fin.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 100vh;
+	position: fixed;
+	width: 100%;
+}

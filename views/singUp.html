@@ -17,45 +17,33 @@
             <span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
         </a>
     </nav>
-    <main class="text-center">
-        <h1>Sing Up</h1>
-        <p>Join now for free ride credit</p>
-    </main>
-    <!-- FORMULARIO DONDE SE ELIGE EL PAIS -->
-    <section>
-        <div class="row styleRow">
-            <div class="col-lg-6">
-                <div class="input-group">
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">País
-                            <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#">Perú</a>
-                            </li>
-                            <li>
-                                <a href="#">Colombia</a>
-                            </li>
-                            <li>
-                                <a href="#">España</a>
-                            </li>
-                            <li>
-                                <a href="#">México</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /btn-group -->
-                    <input type="number" class="form-control"> <!--INPUT DONDE SE INGRESA EL NUMERO CELULAR-->
-                </div>
-                <!-- /input-group -->
+    <section class="container-fluid">
+        <main class="text-center">
+            <h1>Sing Up</h1>
+            <p>Join now for free ride credit</p>
+        </main>
+        <!-- FORMULARIO DONDE SE ELIGE EL PAIS -->
+        <div>
+            <div class="row styleRow">
+                <form action="" class="col-xs-5 style-from">
+                    <select name="cars" class="form-control">
+                        <option value="">País</option>
+                        <option value="volvo">Perú</option>
+                        <option value="saab">Colombia</option>
+                        <option value="mercedes">Argentina</option>
+                        <option value="audi">Ecuador</option>
+                    </select>
+                </form>
+                <form class="col-xs-7 style-from">
+                    <!--INPUT DONDE SE INGRESA EL NUMERO CELULAR-->
+                    <input type="number" class="form-control">
+                </form>
             </div>
-            <!-- /.col-lg-6 -->
-        </div>
-        <p class="text-center">We´ll send a text to verify your phone</p>
-        <!-- BOTON QUE VALIDA LA INFORMACION -->
-        <div class="rwo styleRow butoon">
-            <button class="btn btn-danger" type="submit" disabled>NEXT</button>
+            <p class="text-center">We´ll send a text to verify your phone</p>
+            <!-- BOTON QUE VALIDA LA INFORMACION -->
+            <div class="rwo styleRow butoon">
+                <button class="btn btn-danger" type="submit" disabled>NEXT</button>
+            </div>
         </div>
     </section>
     <!-- Enlazando script  -->
