@@ -1,5 +1,25 @@
 # LYFT
 
+Web-app que replique el registro del sitio de Lyft correctamente validada. Ingresa un teléfono de 10 dígitos y sigue los pasos.
+
+
+![lyft](https://user-images.githubusercontent.com/32285958/39020155-740e7750-43f1-11e8-890a-8429a3aba772.PNG)
+
+
+## Lo que se utilizó en este proyecto
+
+* Html 5.2
+* Css
+* JQuery
+* Boostrap
+* Google Fonts
+* Fontawesome
+
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
+
+*Autor: Kamaly Zapana Lorenzo*
+
 
 * **Descripcion General:** _Web-app con diseño libre, utilizamos JQUERY Y BOOTSTRAP_
 * **Reto** 
